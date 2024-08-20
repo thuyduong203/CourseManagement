@@ -1,0 +1,46 @@
+.breadcrum {
+    color: gray;
+    font-size: 14px;
+    padding: 0;
+}
+
+.fa-rectangle-list {
+    color: #699cf4;
+}
+
+.btn-them {
+    cursor: pointer;
+    float: right;
+    color: white;
+    border-radius: 10px;
+    padding: 9px;
+    background-color: #3d64b9;
+    border: none;
+    font-weight: bold
+}
+
+.btn-them:hover {
+    color: #fff;
+    background-color: #557ccf;
+    border-color: #557ccf;
+}
+
+.page-link.active {
+    background-color: #3d64b9;
+    border-color: #3d64b9;
+    box-shadow: none;
+}
+
+.page-link:hover {
+    color: #00c7f2;
+}
+
+
+.page-link.active:hover {
+    color: #fff;
+}
+
+.error-text {
+    color: red;
+    font-size: 13px;
+}

@@ -1,0 +1,48 @@
+.card-course {
+    transition: transform 0.3s ease;
+}
+
+.card-course h5 {
+    color: black;
+}
+
+.card-course .card-text {
+    color: gray;
+}
+
+.card-course:hover {
+    transform: scale(1.02);
+}
+
+.card-course .card-body>h5 {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+}
+
+.card-course .card-body .card-text {
+    height: 75px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+
+.card-course .btn-edit-course {
+    transition: transform 0.3s ease;
+    margin: 5px;
+    height: 30px;
+    width: 35px;
+    position: absolute;
+    background-color: white;
+    right: 0;
+    border-radius: 5px;
+    border: none !important;
+}
+
+.card-course .btn-edit-course:hover i {
+    font-size: 14px;
+}

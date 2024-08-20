@@ -1,0 +1,141 @@
+* {
+    font-family: "Bai Jamjuree", sans-serif;
+    font-weight: 600;
+    padding: 0px;
+    margin: 0px;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+button {
+    outline: none !important;
+}
+
+p,
+hr,
+h4 {
+    padding: 0px;
+    margin: 0px;
+}
+
+.title_table {
+    font-weight: 500;
+    font-size: 22px;
+}
+
+.title_table>span {
+    margin-left: 10px;
+}
+
+.input_search_table {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+}
+
+.input_search_table div {
+    position: relative;
+    width: 100%;
+}
+
+.input_search_table i {
+    position: absolute;
+    bottom: 23px;
+    right: 15px;
+    color: #00c7f2 !important;
+}
+
+.input_search_table input {
+    height: 42px;
+    border-radius: 16px;
+    padding: 9px 30px 9px 12px;
+    margin: 0px 5px 10px 0;
+    border: 1px solid #e3ebf6;
+    font-size: 15px;
+    width: 100%;
+}
+
+.input_search_table input:focus {
+    color: #3f4254;
+    background-color: #fff;
+    border-color: #00c7f2;
+    outline: 0;
+}
+
+.required {
+    color: red;
+    margin-left: 3px;
+    font-weight: 900;
+}
+
+
+.pagination button {
+    border-radius: 50%;
+    border-top-left-radius: 50% !important;
+    border-bottom-left-radius: 50% !important;
+    border-top-right-radius: 50% !important;
+    border-bottom-right-radius: 50% !important;
+    border: none !important;
+    margin-right: 2px !important;
+    margin-left: 2px !important;
+    box-shadow: none !important;
+    color: gray !important;
+}
+
+.pagination .active {
+    color: #3d64b9 !important;
+    background-color: #00c6f21a !important;
+}
+
+.select_page {
+    width: 75px;
+    color: #1f4c7d;
+    border: 0 !important;
+    outline: none !important;
+    height: calc(0.8em + 1.1rem + 2px);
+    padding: 0.1rem 0.75rem !important;
+    font-size: .925rem;
+    background-color: #f3f6f9 !important;
+    border-radius: 0.28rem;
+}
+
+.btn-info {
+    background-color: #699CF4;
+    border: none;
+    color: white !important;
+}
+
+.text-bg-info {
+    color: white !important;
+}
+
+.text-bg-warning {
+    color: white !important;
+}
+
+.btn-warning {
+    border: none;
+    color: white !important;
+}
+
+.btn-info:hover {
+    background-color: #4f8ffd;
+    border: none;
+    color: white !important;
+}
+
+::-webkit-scrollbar {
+    width: 3px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #00c7f2;
+}
+
+.navbar-brand,
+.nav-link {
+    cursor: pointer;
+}

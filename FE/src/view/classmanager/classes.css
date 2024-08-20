@@ -1,0 +1,81 @@
+.card-class {
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+.card-class:hover {
+    transform: scale(1.02);
+}
+
+.card-class .card-body {
+    height: 25 0px;
+    padding-left: 10px;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.card-class .card-body i {
+    width: 30px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.card-class .card-body .fa-users {
+    width: 30px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.card-class .card-img-top {
+    height: 110px;
+    background-image: url("https://www.gstatic.com/classroom/themes/img_code.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card-class .teacher {
+    margin: 10px 0px 0px 16px;
+    color: white;
+    font-size: 13px;
+}
+
+.card-class .course-name {
+    margin-left: 16px;
+    color: white;
+}
+
+.card-class .bg-class {
+    background-image: url("../../assets/image/teacher_image.png");
+    background-size: cover;
+    border-radius: 50%;
+    float: right;
+    position: relative;
+    background-color: red;
+    margin-top: -23px;
+    margin-right: 10px;
+    height: 75px;
+    width: 75px;
+}
+
+.card-class .class-code {
+    color: white;
+    line-height: 45px;
+    margin-left: 15px;
+}
+
+.btn-edit-class {
+    position: absolute;
+    right: 0;
+    border: none !important;
+    background-color: transparent;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin: 5px 5px 0 0;
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+.btn-edit-class:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+    font-size: 17px;
+}
